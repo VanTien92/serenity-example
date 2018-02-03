@@ -26,6 +26,7 @@ public class TestPage extends PageObject {
     }
 
     public void clickLogin() {
+        waitABit(2000);
         buttonLogin.click();
     }
 }
